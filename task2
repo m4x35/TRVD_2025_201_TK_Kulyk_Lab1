@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список</title>
+</head>
+<body>
+ <h2>HTML файл зі списком</h2>
+    <ul>
+        <li>Українська мова
+            <ol type="i">
+                <li>граматика</li>
+                <li>Орфографія</li>
+            </ol>
+        </li>
+        <li>Історія України
+            <ol start="iii" type="i">
+                <li>Історія Київської Русі</li>
+                <li>Історія козацтва</li>
+            </ol>
+        </li>
+        <li>Філософія
+            <ol start="v" type="i">
+                <li>давньогрецькі філософи</li>
+                <li>Філософія сучасності</li>
+                <li>Проблеми наукового пізнання</li>
+            </ol>
+        </li>
+    </ul>
+</body>
+</html>
