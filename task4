@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+    <style>
+        form {
+            width: 50%;
+            margin: 20px auto;
+            border: 1px solid black;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, select, button {
+            margin-bottom: 15px;
+            width: 100%;
+            padding: 5px;
+        }
+        .inline {
+            display: inline-block;
+            width: auto;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="first-name">First name:</label>
+        <input type="text" id="first-name" name="first-name">
+        
+        <label for="last-name">Last name:</label>
+        <input type="text" id="last-name" name="last-name">
+        
+        <button type="button">Button tag!</button>
+        <input type="button" value="Input tag button type!">
+        
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="japan">Japan</option>
+            <option value="ukraine">Ukraine</option>
+            <option value="usa">USA</option>
+        </select>
+        
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male" class="inline">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female" class="inline">Female</label>
+        
+        <label>Preferences:</label>
+        <input type="checkbox" id="bike" name="vehicle" value="bike">
+        <label for="bike" class="inline">I have a bike</label><br>
+        <input type="checkbox" id="car" name="vehicle" value="car">
+        <label for="car" class="inline">I have a car</label>
+    </form>
+</body>
+</html>
